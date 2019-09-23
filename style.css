@@ -1,0 +1,63 @@
+body {
+	background: #f25f5c;
+}
+
+.titel {
+	color: white;
+	font-family: "Italic", sans-serif;
+	font-size: 80px;
+	padding: 78px 472px 0px 426px;
+}
+
+.button {
+	position: absolute;
+	border-radius: 4px;
+	background-color: #ffe066;
+	border: none;
+	color: black;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	width: 200px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 161px 8px 0px 615px;
+}
+
+.button span {
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+
+.button span:after {
+	content: "\00bb";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+
+.button:hover span {
+	padding-right: 25px;
+}
+
+.button:hover span:after {
+	opacity: 1;
+	right: 0;
+}
+
+.brain {
+	color: white;
+	font-size: 31px;
+	margin: 100px 421px 0px;
+}
+
+#result {
+	color: white;
+	text-align: center;
+	list-style-type: none;
+	font-size: 20px;
+}
